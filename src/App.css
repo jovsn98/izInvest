@@ -262,6 +262,12 @@ a:hover{
     background-color: var(--bgSecondary);
 }
 
+.copyrights {
+    font-size: 0.8rem;
+    color: white;
+    
+}
+
 @media screen and (max-width:1000px){
     .stats-container{
         flex-direction: column;

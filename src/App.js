@@ -46,12 +46,12 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Izi Invest <br />
-            All rights reserved
+            IzInvest <br />
           </Typography.Title>
+            <p class="copyrights">2022@All Rights Reserved</p>
           <Space>
-            <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/">Accueil</Link>
+            {/* <Link to="/exchanges">Exchanges</Link> */}
             <Link to="/news">News</Link>
           </Space>
         </div>
