@@ -18,6 +18,7 @@ a:hover{
     color: var(--pink) !important;
 }
 
+
 .app{
     display: flex;
     overflow: hidden;
@@ -25,7 +26,7 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background-color: rgb(0, 21, 41);
+    background-color: #000;
 }
 
 .main{
@@ -42,11 +43,11 @@ a:hover{
     margin: 10px;
     height: 100vh;
     margin: 0px;
-    background-color: rgb(0, 21, 41);
+    background-color: #000;
 }
 
 .logo-container{
-    background-color: #001529;
+    background-color: #000;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -371,11 +372,21 @@ width: 70%;
 .crypto-card .crypto-image{
     width:35px;
 }
+.ant-card-head {
+    background-color: #4799c1 !important;
+}
 .select-timeperiod{
     width: 200px !important;
     margin-top: 20px !important;
 }
-
+.brand {
+    font-size: 1.3rem;
+    text-align: center;
+    color: red;
+}
+.ant-menu.ant-menu-dark {
+    background: #000000 !important;
+}
 .footer {
     background-color: #001529;
     display: flex;
